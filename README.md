@@ -49,6 +49,16 @@ DB_CONNECTION=sqlite
    php artisan migrate
    ~~~
    
+   Te saldrá este aviso:
+
+    `**WARN**  The SQLite database configured for this application does not exist: database/database.sqlite.`
+
+     `Would you like to create it?`
+   
+     `Yes / No`
+
+    Debes decir que **SÍ** para que cree el archivo que actuará como base de datos.
+   
 7. Abre el proyecto en el **servidor local de laravel**:
    ~~~
    php artisan serve
